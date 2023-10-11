@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/curriculo.css">
+    <title>Currículo</title>
+</head>
+<body>
+    <!-- NAVEGACAO -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid navegacao">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" width="200px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">EMPREGOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">CURRICULOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">CLASSIFICADOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- conteudo -->
+<main>
+    <div class="container">
+          <form>
+            <h1 class="text-center">Cadastrar um CV</h1>
+            <div class="col-md-10 col-sm-12 item">
+              <label for="nome" class="form-label labelnome">Nome completo:</label>
+              <input type="text" class="form-control" id="nome" placeholder="Insira seu nome aqui..." required>
+            </div>
+            <div class="col-md-5 col-sm-12 item">
+              <label for="objetivo">Qual é o seu objetivo?</label>
+              <select class="form-select" aria-label="Default select example" id="objetivo" required>
+                <option selected>Selecione o seu objetivo...</option>
+                <option value="1">Advogado</option>
+                <option value="2">Programador</option>
+                <option value="3">Médico</option>
+                <option value="4">Mecânico</option>
+                <option value="5">Bombeiro</option>
+                <option value="6">Administrador</option>
+                <option value="7">Contador</option>
+                <option value="8">Assistente administrativo</option>
+                <option value="9">Cozinheiro</option>
+                <option value="10">Entregador</option>
+              </select>
+            </div>
+            <div class="col-md-5 col-sm-12 item">
+              <label for="cidade" class="form-label">Cidade:</label>
+              <input type="text" class="form-control" id="cidade" placeholder="Coloque sua cidade aqui..." required>
+            </div>
+            <div class="col-md-10 col-sm-12 item">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Insira seu email aqui..." required>
+            </div>
+            <div class="col-md-10 col-sm-12 item">
+              <label for="apres" class="form-label">Apresentação | Informações complementares:</label>
+              <textarea  class="form-control" id="apres" rows="3" placeholder="Conte um pouco sobre você" required></textarea>
+            </div>
+            <div class="col-md-10 col-sm-12 item">
+              <label for="qual" class="form-label">Qualificações:</label>
+              <textarea  class="form-control" id="qual" rows="3" placeholder="Cite suas qualificaçôes" required></textarea>
+            </div>
+            <div class="col-md-10 col-sm-12 item">
+              <label for="forma" class="form-label">Formação:</label>
+              <textarea  class="form-control" id="forma" rows="3" placeholder="Conte suas formações" required></textarea>
+            </div>
+            <div class="col-md-10 col-sm-12 item">
+              <label for="exp" class="form-label">Experiência:</label>
+              <textarea  class="form-control" id="exp" rows="3" placeholder="Comente suas experiência" required></textarea>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="butao btn mb-3">Cadastrar</button>
+            </div>
+          </form>
+    </div>
+</main>
+
+
+      <!-- footer -->
+<footer>
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-md-4 col-sm-12 esquerda">
+          <h3>Blumenau Online</h3>
+          <h5 class="blu">Um portal de oportunidade</h5>
+        </div>
+        <div class="col-md-4 col-sm-12 centro">
+          <h3>Anuncie conosco</h3>
+          <a href="#"class="email">comercial@bnuonline.com.br</a>
+        </div>
+        <div class="col-md-4 col-sm-12 direita">
+          <h3>Veja também</h3>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">EMPREGOS</a></li>
+            <li><a href="#">CURRÍCULOS</a></li>
+            <li><a href="#">CLASSIFICADOS</a></li>
+            <li><a href="#">BLOG</a></li>
+          </ul>
+        </div>
+        <div class="col-12 footer2">
+          <h6>© 2023 Blumenau Online | Todos os direitos reservados.</h6>
+        </div>
+      </div>
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
